@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-#i love you
-clean_up='rm /var/run/holbertonscript.pid; exit $?'
-
-echo $$ > "/var/run/myscript.pid"
+#manage my files
+while [[ 1 -eq 1 ]]; do
+	echo "I am alive!" >> /tmp/my_process
+	sleep 2
+done	
